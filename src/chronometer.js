@@ -30,7 +30,7 @@ class Chronometer {
     let number = String(value);
 
     if(number.length === 1) {
-      number = `0${String(value)}`;
+      number = `0${number}`;
     }
 
     return number;
